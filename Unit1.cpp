@@ -9,6 +9,10 @@
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma classgroup "Vcl.Controls.TControl"
+#pragma link "frxClass"
+#pragma link "frxExportBaseDialog"
+#pragma link "frxExportPDF"
+#pragma link "frxBarcode"
 #pragma resource "*.dfm"
 TDataModule1 *DataModule1;
 //---------------------------------------------------------------------------

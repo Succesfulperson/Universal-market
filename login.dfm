@@ -3,7 +3,7 @@ object Form7: TForm7
   Top = 0
   Caption = 'Form7'
   ClientHeight = 476
-  ClientWidth = 878
+  ClientWidth = 845
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -30,11 +30,11 @@ object Form7: TForm7
       'Direktor '
       'Kassir'
       'Admin1'
-      'Admin2')
+      '')
   end
   object Edit1: TEdit
     Left = 328
-    Top = 205
+    Top = 198
     Width = 278
     Height = 53
     Font.Charset = DEFAULT_CHARSET
@@ -46,34 +46,6 @@ object Form7: TForm7
     TabOrder = 1
     TextHint = 'Parol'
   end
-  object Edit2: TEdit
-    Left = 352
-    Top = 302
-    Width = 121
-    Height = 53
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -37
-    Font.Name = 'Tahoma'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 2
-    Text = 'Kirish'
-  end
-  object Edit3: TEdit
-    Left = 469
-    Top = 302
-    Width = 137
-    Height = 53
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -37
-    Font.Name = 'Tahoma'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 3
-    Text = 'Qaytish'
-  end
   object menu: TPanel
     Left = 0
     Top = 73
@@ -83,9 +55,7 @@ object Form7: TForm7
     BevelOuter = bvNone
     Color = 3880493
     ParentBackground = False
-    TabOrder = 4
-    ExplicitTop = 0
-    ExplicitHeight = 476
+    TabOrder = 2
     object m1: TPanel
       AlignWithMargins = True
       Left = 0
@@ -101,7 +71,6 @@ object Form7: TForm7
       Color = 8561941
       ParentBackground = False
       TabOrder = 2
-      ExplicitTop = 99
       object Image8: TImage
         AlignWithMargins = True
         Left = 18
@@ -163,7 +132,6 @@ object Form7: TForm7
       BevelOuter = bvNone
       Color = 8561941
       TabOrder = 3
-      ExplicitTop = 324
       object Image9: TImage
         AlignWithMargins = True
         Left = 18
@@ -222,7 +190,6 @@ object Form7: TForm7
       BevelOuter = bvNone
       Color = 8561941
       TabOrder = 4
-      ExplicitTop = 369
       object Image10: TImage
         AlignWithMargins = True
         Left = 18
@@ -293,7 +260,6 @@ object Form7: TForm7
       Color = 3090977
       ParentBackground = False
       TabOrder = 5
-      ExplicitTop = 440
       object Image11: TImage
         Left = 0
         Top = 0
@@ -365,7 +331,6 @@ object Form7: TForm7
       BevelOuter = bvNone
       Color = 8561941
       TabOrder = 0
-      ExplicitTop = 144
       object Image4: TImage
         AlignWithMargins = True
         Left = 18
@@ -434,7 +399,6 @@ object Form7: TForm7
       BevelOuter = bvNone
       Color = 8561941
       TabOrder = 1
-      ExplicitTop = 189
       object Image5: TImage
         AlignWithMargins = True
         Left = 18
@@ -491,13 +455,13 @@ object Form7: TForm7
   object header: TPanel
     Left = 0
     Top = 0
-    Width = 878
+    Width = 845
     Height = 73
     Align = alTop
     BevelOuter = bvNone
     Color = 16513782
     ParentBackground = False
-    TabOrder = 5
+    TabOrder = 3
     object Panel1: TPanel
       Left = 0
       Top = 0
@@ -543,8 +507,7 @@ object Form7: TForm7
           F79766542BCC63ECAC856056705F7887B358A701642B1A8DDE5A24E623027B6F
           9C6BE513B17621D62AAE7705BD237DEC090EC8B07DC1A25DB40000000049454E
           44AE426082}
-        ExplicitLeft = 1
-        ExplicitWidth = 240
+        ExplicitWidth = 263
       end
     end
     object search: TPanel
@@ -645,7 +608,7 @@ object Form7: TForm7
       end
     end
     object profile: TPanel
-      Left = 680
+      Left = 647
       Top = 0
       Width = 198
       Height = 73
@@ -1043,9 +1006,56 @@ object Form7: TForm7
         ParentFont = False
         Layout = tlCenter
         WordWrap = True
-        ExplicitLeft = 77
         ExplicitHeight = 48
       end
     end
+  end
+  object Button1: TButton
+    Left = 477
+    Top = 336
+    Width = 129
+    Height = 53
+    Caption = 'Qaytish'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -31
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+    OnClick = Button1Click
+  end
+  object ComboBox2: TComboBox
+    Left = 328
+    Top = 266
+    Width = 278
+    Height = 45
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -31
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+    TextHint = 'Huquq'
+    Items.Strings = (
+      'Boshliq'
+      'Boshqaruvchi'
+      'Ishchi')
+  end
+  object Button2: TButton
+    Left = 328
+    Top = 336
+    Width = 125
+    Height = 53
+    Caption = 'Kirish'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -31
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+    OnClick = Button1Click
   end
 end
