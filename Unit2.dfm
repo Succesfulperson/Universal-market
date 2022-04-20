@@ -3231,11 +3231,11 @@ object Form2: TForm2
     Radius = 18
   end
   object Label1: TLabel
-    Left = 329
+    Left = 319
     Top = 411
-    Width = 77
+    Width = 26
     Height = 33
-    Caption = 'Label1'
+    Caption = '1'
   end
   object Edit1: TEdit
     Left = 32
