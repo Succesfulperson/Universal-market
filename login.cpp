@@ -35,6 +35,8 @@ void __fastcall TForm7::Button1Click(TObject *Sender)
 //  {
 //  ShowMessage("Sizning parolingiz xato")
 //  }
-}
+
+}
+
 //---------------------------------------------------------------------------
 

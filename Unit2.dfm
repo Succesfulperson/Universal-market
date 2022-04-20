@@ -2820,7 +2820,7 @@ object Form2: TForm2
       F35A0000000049454E44AE426082}
   end
   object Image10: TImage
-    Left = 440
+    Left = 432
     Top = 292
     Width = 437
     Height = 86
@@ -3308,11 +3308,12 @@ object Form2: TForm2
   end
   object ComboBox1: TComboBox
     Left = 31
-    Top = 311
+    Top = 313
     Width = 374
     Height = 41
     BevelInner = bvNone
     BevelOuter = bvNone
+    Style = csDropDownList
     Color = clWhite
     TabOrder = 9
     TextHint = 'Kategoriyasi'
@@ -3324,6 +3325,7 @@ object Form2: TForm2
     Top = 408
     Width = 301
     Height = 41
+    Style = csDropDownList
     TabOrder = 10
     TextHint = 'Maxsulot turi'
     Items.Strings = (
@@ -3332,8 +3334,8 @@ object Form2: TForm2
       'Pachka')
   end
   object DateTimePicker1: TDateTimePicker
-    Left = 472
-    Top = 313
+    Left = 468
+    Top = 311
     Width = 374
     Height = 34
     Date = 44670.000000000000000000
@@ -3341,10 +3343,11 @@ object Form2: TForm2
     TabOrder = 11
   end
   object ComboBox3: TComboBox
-    Left = 32
+    Left = 31
     Top = 408
     Width = 281
     Height = 41
+    Style = csDropDownList
     TabOrder = 12
     TextHint = 'Kuriyer ismi'
     Items.Strings = (
