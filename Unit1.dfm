@@ -143,8 +143,8 @@ object DataModule1: TDataModule1
         AllowVectorExport = True
         Left = 15.118120000000000000
         Top = 245.669450000000000000
-        Width = 145.749685519999900000
-        Height = 145.749685519999900000
+        Width = 145.749685520000000000
+        Height = 145.749685520000000000
         StretchMode = smActualHeight
         AutoSize = False
         BarType = bcCodeQR
@@ -163,7 +163,7 @@ object DataModule1: TDataModule1
           '390036003200260063003D003200300032003200300034003100370032003100' +
           '3000360030003800260073003D00330034003400350032003200310032003900' +
           '380033003400'
-        Zoom = 0.984795172432432000
+        Zoom = 0.984795172432432400
         FontScaled = True
         QuietZone = 0
         ColorBar = clBlack
@@ -370,5 +370,20 @@ object DataModule1: TDataModule1
   object frxBarCodeObject1: TfrxBarCodeObject
     Left = 712
     Top = 320
+  end
+  object ADOQuerycurrier_id: TADOQuery
+    Active = True
+    Connection = ADOConnection1
+    CursorType = ctStatic
+    Parameters = <>
+    SQL.Strings = (
+      'select * from currier_id')
+    Left = 136
+    Top = 432
+  end
+  object DataSource1: TDataSource
+    DataSet = ADOQuerycurrier_id
+    Left = 352
+    Top = 424
   end
 end

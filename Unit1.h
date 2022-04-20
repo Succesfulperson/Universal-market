@@ -26,6 +26,8 @@ __published:	// IDE-managed Components
 	TfrxReport *frxReport1;
 	TfrxPDFExport *frxPDFExport1;
 	TfrxBarCodeObject *frxBarCodeObject1;
+	TADOQuery *ADOQuerycurrier_id;
+	TDataSource *DataSource1;
 private:	// User declarations
 public:		// User declarations
 	__fastcall TDataModule1(TComponent* Owner);

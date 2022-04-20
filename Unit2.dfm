@@ -3200,7 +3200,7 @@ object Form2: TForm2
     PictureMarginLeft = 10
   end
   object PraButtonStyle1: TPraButtonStyle
-    Left = 432
+    Left = 443
     Top = 488
     Width = 177
     Height = 57
@@ -3230,12 +3230,20 @@ object Form2: TForm2
     TabOrder = 13
     Radius = 18
   end
+  object Label1: TLabel
+    Left = 329
+    Top = 411
+    Width = 77
+    Height = 33
+    Caption = 'Label1'
+  end
   object Edit1: TEdit
     Left = 32
     Top = 27
     Width = 374
     Height = 34
     BorderStyle = bsNone
+    NumbersOnly = True
     TabOrder = 0
     TextHint = 'Shtrix kodi'
   end
@@ -3307,8 +3315,8 @@ object Form2: TForm2
     TextHint = 'Izoh'
   end
   object ComboBox1: TComboBox
-    Left = 31
-    Top = 313
+    Left = 32
+    Top = 304
     Width = 374
     Height = 41
     BevelInner = bvNone
@@ -3343,15 +3351,13 @@ object Form2: TForm2
     TabOrder = 11
   end
   object ComboBox3: TComboBox
-    Left = 31
+    Left = 32
     Top = 408
     Width = 281
     Height = 41
     Style = csDropDownList
     TabOrder = 12
     TextHint = 'Kuriyer ismi'
-    Items.Strings = (
-      'Nurillo'
-      'Hikmatillo')
+    OnSelect = ComboBox3Select
   end
 end

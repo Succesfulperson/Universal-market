@@ -39,8 +39,10 @@ __published:	// IDE-managed Components
 	TDateTimePicker *DateTimePicker1;
 	TComboBox *ComboBox3;
 	TPraButtonStyle *PraButtonStyle1;
+	TLabel *Label1;
 	void __fastcall PraButtonStyle27Click(TObject *Sender);
 	void __fastcall FormShow(TObject *Sender);
+	void __fastcall ComboBox3Select(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm2(TComponent* Owner);
