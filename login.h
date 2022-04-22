@@ -13,8 +13,6 @@
 class TForm7 : public TForm
 {
 __published:	// IDE-managed Components
-	TComboBox *ComboBox1;
-	TEdit *Edit1;
 	TPanel *menu;
 	TPanel *m1;
 	TImage *Image8;
@@ -34,19 +32,15 @@ __published:	// IDE-managed Components
 	TPanel *m3;
 	TImage *Image5;
 	TLabel *Label4;
-	TPanel *header;
 	TPanel *Panel1;
 	TImage *Image1;
-	TPanel *search;
-	TImage *Image2;
-	TEdit *Edit4;
-	TPanel *profile;
-	TImage *Image33;
-	TLabel *Label55;
+	TPanel *Panel2;
+	TComboBox *ComboBox1;
+	TEdit *Edit1;
 	TButton *Button1;
-	TComboBox *ComboBox2;
 	TButton *Button2;
 	void __fastcall Button1Click(TObject *Sender);
+	void __fastcall Button2Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm7(TComponent* Owner);

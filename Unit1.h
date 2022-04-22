@@ -28,6 +28,8 @@ __published:	// IDE-managed Components
 	TfrxBarCodeObject *frxBarCodeObject1;
 	TADOQuery *ADOQuerycurrier_id;
 	TDataSource *DataSource1;
+	TADOQuery *ADOQueryfast_panel;
+	TDataSource *DataSourcefast_panel;
 private:	// User declarations
 public:		// User declarations
 	__fastcall TDataModule1(TComponent* Owner);

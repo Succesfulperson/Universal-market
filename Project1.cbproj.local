@@ -1,25 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.164,=C:\Users\NURILLO\Documents\Embarcadero\Studio\Projects\design.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.485,=C:\Users\NURILLO\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.497,=C:\Users\NURILLO\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.534,C:\Users\NURILLO\Documents\Embarcadero\Studio\Projects\Unit1.cpp=</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.095,=D:\vazifa market\Unit2.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.664,D:\vazifa market\Unit7.dfm=D:\vazifa market\login.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.440,=D:\vazifa market\Unit5.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.664,D:\vazifa market\Unit7.h=D:\vazifa market\login.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.057,=D:\vazifa market\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.497,=C:\Users\NURILLO\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.712,C:\Users\NURILLO\Documents\Embarcadero\Studio\Projects\Project1.cbproj=D:\vazifa market\Project1.cbproj</Transaction>
     <Transaction>1899.12.30 00:00:00.000.663,C:\Users\NURILLO\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\NURILLO\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.551,=D:\vazifa market\Unit4.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.602,C:\Users\NURILLO\Documents\Embarcadero\Studio\Projects\Unit2.cpp=</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.807,=C:\Users\NURILLO\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.812,=D:\vazifa market\Unit3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.664,D:\vazifa market\login.dfm=D:\vazifa market\Unit7.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.440,=D:\vazifa market\Unit5.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.095,=D:\vazifa market\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.057,=D:\vazifa market\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.164,=C:\Users\NURILLO\Documents\Embarcadero\Studio\Projects\design.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.748,=D:\vazifa market\Unit6.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.812,=D:\vazifa market\Unit3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.807,=C:\Users\NURILLO\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.602,C:\Users\NURILLO\Documents\Embarcadero\Studio\Projects\Unit2.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.551,=D:\vazifa market\Unit4.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.664,D:\vazifa market\login.h=D:\vazifa market\Unit7.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.556,=D:\vazifa market\Unit1.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.712,D:\vazifa market\Project1.cbproj=C:\Users\NURILLO\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.664,D:\vazifa market\login.cpp=D:\vazifa market\Unit7.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.694,=D:\vazifa market\Unit7.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.664,D:\vazifa market\Unit7.cpp=D:\vazifa market\login.cpp</Transaction>
+    <Transaction>2022.04.22 11:10:19.290,=D:\vazifa market\Unit5.cpp</Transaction>
+    <Transaction>2022.04.22 11:35:58.660,D:\vazifa market\tezkorpanel.cpp=D:\vazifa market\Unit5.cpp</Transaction>
+    <Transaction>2022.04.22 11:35:58.661,D:\vazifa market\tezkorpanel.h=D:\vazifa market\Unit5.h</Transaction>
+    <Transaction>2022.04.22 11:35:58.661,D:\vazifa market\tezkorpanel.dfm=D:\vazifa market\Unit5.dfm</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="C:"/>
@@ -59,5 +63,9 @@
     <File Path="login.cpp"/>
     <File Path="login.dfm"/>
     <File Path="login.h"/>
+    <File Path="tezkorpanel.cpp"/>
+    <File Path="tezkorpanel.cpp"/>
+    <File Path="tezkorpanel.dfm"/>
+    <File Path="tezkorpanel.h"/>
   </ProjectSortOrder>
 </BorlandProject>

@@ -5,6 +5,7 @@
 
 #include "Unit6.h"
 #include "Unit1.h"
+#include "design.h"
 // ---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma link "PraButtonStyle"
@@ -56,6 +57,7 @@ void __fastcall TForm6::PraButtonStyle2Click(TObject *Sender) {
 
 void __fastcall TForm6::PraButtonStyle1Click(TObject *Sender)
 {
+
 	if (DataModule1->ADOQueryCategory->RecordCount!=-1)
 	 {
 		int id = DBGrid1->DataSource->DataSet->FieldByName("id")->AsInteger;

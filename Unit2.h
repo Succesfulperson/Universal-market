@@ -30,13 +30,9 @@ __published:	// IDE-managed Components
 	TEdit *Edit6;
 	TEdit *Edit7;
 	TImage *Image8;
-	TEdit *Edit8;
 	TComboBox *ComboBox1;
 	TComboBox *ComboBox2;
-	TImage *Image9;
-	TImage *Image10;
 	TPraButtonStyle *PraButtonStyle27;
-	TDateTimePicker *DateTimePicker1;
 	TComboBox *ComboBox3;
 	TPraButtonStyle *PraButtonStyle1;
 	TLabel *Label1;
@@ -46,6 +42,7 @@ __published:	// IDE-managed Components
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm2(TComponent* Owner);
+
 };
 //---------------------------------------------------------------------------
 extern PACKAGE TForm2 *Form2;

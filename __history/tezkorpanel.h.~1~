@@ -1,0 +1,47 @@
+//---------------------------------------------------------------------------
+
+#ifndef tezkorpanelH
+#define tezkorpanelH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include "PraButtonStyle.hpp"
+#include <Vcl.ExtCtrls.hpp>
+//---------------------------------------------------------------------------
+class TForm5 : public TForm
+{
+__published:	// IDE-managed Components
+	TFlowPanel *FlowPanel1;
+	TPraButtonStyle *PraButtonStyle2;
+	TPraButtonStyle *PraButtonStyle1;
+	TPraButtonStyle *PraButtonStyle3;
+	TPraButtonStyle *PraButtonStyle4;
+	TPraButtonStyle *PraButtonStyle5;
+	TPraButtonStyle *PraButtonStyle6;
+	TPraButtonStyle *PraButtonStyle7;
+	TPraButtonStyle *PraButtonStyle8;
+	TPraButtonStyle *PraButtonStyle9;
+	TPraButtonStyle *PraButtonStyle10;
+	TPraButtonStyle *PraButtonStyle11;
+	TPraButtonStyle *PraButtonStyle12;
+	TPraButtonStyle *PraButtonStyle13;
+	TPraButtonStyle *PraButtonStyle14;
+	TPraButtonStyle *PraButtonStyle15;
+	TPraButtonStyle *PraButtonStyle16;
+	TPraButtonStyle *PraButtonStyle17;
+	TPraButtonStyle *PraButtonStyle18;
+	TScrollBox *ScrollBox1;
+	void __fastcall ScrollBox1MouseWheelDown(TObject *Sender, TShiftState Shift, TPoint &MousePos,
+          bool &Handled);
+	void __fastcall ScrollBox1MouseWheelUp(TObject *Sender, TShiftState Shift, TPoint &MousePos,
+          bool &Handled);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TForm5(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm5 *Form5;
+//---------------------------------------------------------------------------
+#endif

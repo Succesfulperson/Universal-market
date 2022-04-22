@@ -26,17 +26,18 @@ __fastcall TForm7::TForm7(TComponent* Owner)
 
 void __fastcall TForm7::Button1Click(TObject *Sender)
 {
-  Form1->ShowModal();
-  //if (DataModule1->ADOQuerylogin=id)
-  {
-  ShowMessage("Sizning parolingiz to'g'ri");
-  }
-  //else
-//  {
-//  ShowMessage("Sizning parolingiz xato")
-//  }
+ Close();
 
 }
 
+//---------------------------------------------------------------------------
+
+
+
+
+void __fastcall TForm7::Button2Click(TObject *Sender)
+{
+	Form1->ShowModal();
+}
 //---------------------------------------------------------------------------
 

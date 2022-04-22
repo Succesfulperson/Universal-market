@@ -386,4 +386,19 @@ object DataModule1: TDataModule1
     Left = 352
     Top = 424
   end
+  object ADOQueryfast_panel: TADOQuery
+    Active = True
+    Connection = ADOConnection1
+    CursorType = ctStatic
+    Parameters = <>
+    SQL.Strings = (
+      'select * from fast_panel')
+    Left = 144
+    Top = 512
+  end
+  object DataSourcefast_panel: TDataSource
+    DataSet = ADOQueryfast_panel
+    Left = 360
+    Top = 504
+  end
 end
