@@ -114,7 +114,7 @@
     <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
         <UsePackages>false</UsePackages>
         <DynamicRTL>false</DynamicRTL>
-        <LinkPackageStatics>rtl.lib;vcl.lib;dbrtl.lib;adortl.lib;vcldb.lib;vclimg.lib;pracomponents.lib;xmlrtl.lib;vclactnband.lib;vclx.lib;vclwinx.lib;bindengine.lib</LinkPackageStatics>
+        <LinkPackageStatics>rtl.lib;vcl.lib;dbrtl.lib;adortl.lib;vcldb.lib;vclimg.lib;pracomponents.lib;xmlrtl.lib;vclactnband.lib;vclx.lib;vclwinx.lib;bindengine.lib;frx27.lib;fs27.lib;fqb270.lib;frxe27.lib</LinkPackageStatics>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Locale>1033</VerInfo_Locale>
         <ILINK_LibraryPath>C:\Program Files (x86)\Embarcadero\Studio\pra\Delphi-PraButtonStyle-master\packages\Win32\Debug\;$(ILINK_LibraryPath)</ILINK_LibraryPath>
@@ -192,11 +192,11 @@
             <DependentOn>Unit6.h</DependentOn>
             <BuildOrder>8</BuildOrder>
         </CppCompile>
+        <FormResources Include="Unit1.dfm"/>
         <FormResources Include="Unit2.dfm"/>
         <FormResources Include="Unit3.dfm"/>
         <FormResources Include="Unit4.dfm"/>
         <FormResources Include="Unit6.dfm"/>
-        <FormResources Include="Unit1.dfm"/>
         <FormResources Include="C:\Users\NURILLO\Documents\Embarcadero\Studio\Projects\design.dfm"/>
         <FormResources Include="login.dfm"/>
         <FormResources Include="tezkorpanel.dfm"/>
@@ -302,8 +302,8 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName=".\Win32\Debug\Project1.exe" Configuration="Debug" Class="ProjectOutput"/>
-                <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'=='true'" LocalName="$(BDS)\bin64\cc64160mt.dll" Class="DependencyModule"/>
                 <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'!='true'" LocalName="$(BDS)\bin64\cc64160.dll" Class="DependencyModule"/>
+                <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'=='true'" LocalName="$(BDS)\bin64\cc64160mt.dll" Class="DependencyModule"/>
                 <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'!='true'" LocalName="$(BDS)\bin\cc32c270.dll" Class="DependencyModule">
                     <Platform Name="Win32">
                         <Overwrite>true</Overwrite>

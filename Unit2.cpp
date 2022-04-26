@@ -36,6 +36,8 @@ void __fastcall TForm2::PraButtonStyle27Click(TObject *Sender) {
 
 
 	////o'zgartirish
+	if(Form1->o5->DockManager)
+	{
     	TDate sssss = Date().CurrentDate();
 
 	int id=DataModule1->ADOQueryombor->FieldByName(id)->AsInteger;
@@ -46,6 +48,7 @@ void __fastcall TForm2::PraButtonStyle27Click(TObject *Sender) {
 	DataModule1->ADOQueryombor->Close();
 	DataModule1->ADOQueryombor->SQL->Text="select * from store";
 	DataModule1->ADOQueryombor->Open();
+	}
 
 	Form2->Close();
 }
